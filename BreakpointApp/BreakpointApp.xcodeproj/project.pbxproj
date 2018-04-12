@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3B80DC4E207FA15900D52FD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80DC4D207FA15900D52FD4 /* AppDelegate.swift */; };
-		3B80DC50207FA15900D52FD4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80DC4F207FA15900D52FD4 /* FirstViewController.swift */; };
-		3B80DC52207FA15900D52FD4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80DC51207FA15900D52FD4 /* SecondViewController.swift */; };
+		3B80DC50207FA15900D52FD4 /* FeedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80DC4F207FA15900D52FD4 /* FeedsViewController.swift */; };
+		3B80DC52207FA15900D52FD4 /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80DC51207FA15900D52FD4 /* GroupsViewController.swift */; };
 		3B80DC55207FA15900D52FD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B80DC53207FA15900D52FD4 /* Main.storyboard */; };
 		3B80DC57207FA15900D52FD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B80DC56207FA15900D52FD4 /* Assets.xcassets */; };
 		3B80DC5A207FA15900D52FD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B80DC58207FA15900D52FD4 /* LaunchScreen.storyboard */; };
@@ -26,8 +26,8 @@
 /* Begin PBXFileReference section */
 		3B80DC4A207FA15900D52FD4 /* BreakpointApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakpointApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B80DC4D207FA15900D52FD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3B80DC4F207FA15900D52FD4 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		3B80DC51207FA15900D52FD4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3B80DC4F207FA15900D52FD4 /* FeedsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedsViewController.swift; sourceTree = "<group>"; };
+		3B80DC51207FA15900D52FD4 /* GroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
 		3B80DC54207FA15900D52FD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B80DC56207FA15900D52FD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B80DC59207FA15900D52FD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -83,8 +83,8 @@
 				3B80DC62207FA1AD00D52FD4 /* View */,
 				3B80DC61207FA19800D52FD4 /* Controller */,
 				3B80DC4D207FA15900D52FD4 /* AppDelegate.swift */,
-				3B80DC4F207FA15900D52FD4 /* FirstViewController.swift */,
-				3B80DC51207FA15900D52FD4 /* SecondViewController.swift */,
+				3B80DC4F207FA15900D52FD4 /* FeedsViewController.swift */,
+				3B80DC51207FA15900D52FD4 /* GroupsViewController.swift */,
 				3B80DC53207FA15900D52FD4 /* Main.storyboard */,
 				3B80DC56207FA15900D52FD4 /* Assets.xcassets */,
 				3B80DC58207FA15900D52FD4 /* LaunchScreen.storyboard */,
@@ -289,12 +289,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B80DC6D207FBEC300D52FD4 /* LoginViewController.swift in Sources */,
-				3B80DC52207FA15900D52FD4 /* SecondViewController.swift in Sources */,
+				3B80DC52207FA15900D52FD4 /* GroupsViewController.swift in Sources */,
 				3B80DC4E207FA15900D52FD4 /* AppDelegate.swift in Sources */,
 				3B80DC6B207FBE9800D52FD4 /* AuthViewController.swift in Sources */,
 				3B80DC71207FC57800D52FD4 /* ShadowView.swift in Sources */,
 				3B80DC73207FC87300D52FD4 /* Authservice.swift in Sources */,
-				3B80DC50207FA15900D52FD4 /* FirstViewController.swift in Sources */,
+				3B80DC50207FA15900D52FD4 /* FeedsViewController.swift in Sources */,
 				3B80DC6F207FBF8700D52FD4 /* InsetTextField.swift in Sources */,
 				3B80DC69207FA99500D52FD4 /* DataService.swift in Sources */,
 			);
