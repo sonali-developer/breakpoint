@@ -20,8 +20,16 @@ extension UIView {
         let endFrame = (notification.userInfo![UIKeyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
         let deltaY = endFrame.origin.y - beginningFrame.origin.y
         
-        UIView.animateKeyframes(withDuration: duration, delay: 0.0, options: UIViewKeyframeAnimationOptions(rawValue :curve), animations: {
-            self.frame.origin.y  += deltaY
-        }, completion: nil)
-    }
+        UIView.animateKeyframes(withDuration: duration, delay: 0.0, options: UIViewKeyframeAnimationOptions(rawValue: curve), animations: {
+            self.frame.origin.y = self.frame.origin.y + deltaY
+        }) { (complete) in
+            if complete {
+                self.translatesAutoresizingMaskIntoConstraints = true
+            }
+        }
+//        UIView.animateKeyframes(withDuration: duration, delay: 0.0, options: UIViewKeyframeAnimationOptions(rawValue :curve), animations: {
+//            self.frame.origin.y  += deltaY
+//        }, completion: nil)
+//    }
+}
 }
