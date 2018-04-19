@@ -494,8 +494,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cio-3n-x7A">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="_group title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sTI-Ka-Mdd">
-                                        <rect key="frame" x="88" y="34.5" width="200" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_group title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sTI-Ka-Mdd">
+                                        <rect key="frame" x="88" y="35" width="200" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="200" id="4Tm-ut-KTt"/>
                                             <constraint firstAttribute="height" constant="21" id="SVG-tP-lRU"/>
@@ -504,7 +504,7 @@
                                         <color key="textColor" red="0.56078431370000004" green="0.81176470590000005" blue="0.30588235289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gwd-ac-H0h">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gwd-ac-H0h">
                                         <rect key="frame" x="20" y="34" width="12" height="22"/>
                                         <state key="normal" image="backIcon">
                                             <color key="titleColor" red="0.56078431370000004" green="0.81176470590000005" blue="0.30588235289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -517,6 +517,7 @@
                                 <color key="backgroundColor" red="0.16078431369999999" green="0.16862745100000001" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="Gwd-ac-H0h" firstAttribute="leading" secondItem="Cio-3n-x7A" secondAttribute="leading" constant="20" id="A0B-39-Nhm"/>
+                                    <constraint firstItem="Gwd-ac-H0h" firstAttribute="top" secondItem="Cio-3n-x7A" secondAttribute="top" constant="34" id="afh-Kw-TrF"/>
                                     <constraint firstItem="sTI-Ka-Mdd" firstAttribute="centerY" secondItem="Gwd-ac-H0h" secondAttribute="centerY" id="cwf-rB-u6o"/>
                                     <constraint firstAttribute="height" constant="70" id="jV8-0t-Eag"/>
                                     <constraint firstItem="sTI-Ka-Mdd" firstAttribute="centerX" secondItem="Cio-3n-x7A" secondAttribute="centerX" id="m8t-xc-zfC"/>
@@ -580,7 +581,7 @@
                                 </prototypes>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="user@breakpoint.com, abc@test.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="a7J-qO-t4v">
-                                <rect key="frame" x="0.0" y="78" width="375" height="16.5"/>
+                                <rect key="frame" x="0.0" y="78" width="375" height="17"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
                                 <color key="textColor" red="0.56078431370000004" green="0.81176470590000005" blue="0.30588235289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -639,8 +640,7 @@
                         <viewLayoutGuide key="safeArea" id="hT8-pj-CQn"/>
                     </view>
                     <connections>
-                        <outlet property="backBtnWasPressed" destination="Gwd-ac-H0h" id="kxH-f6-Aub"/>
-                        <outlet property="groupTitle" destination="sTI-Ka-Mdd" id="SOH-CP-gCy"/>
+                        <outlet property="groupTitleLbl" destination="sTI-Ka-Mdd" id="SOH-CP-gCy"/>
                         <outlet property="membersLbl" destination="a7J-qO-t4v" id="wog-1k-6XQ"/>
                         <outlet property="messageTextField" destination="0Ep-4t-BWK" id="WOY-GA-b6R"/>
                         <outlet property="sendBtnView" destination="XZx-ol-Ni9" id="awg-v1-pBi"/>
