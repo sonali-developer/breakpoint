@@ -20,6 +20,17 @@
 		3B80DC6F207FBF8700D52FD4 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80DC6E207FBF8700D52FD4 /* InsetTextField.swift */; };
 		3B80DC71207FC57800D52FD4 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80DC70207FC57800D52FD4 /* ShadowView.swift */; };
 		3B80DC73207FC87300D52FD4 /* Authservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80DC72207FC87300D52FD4 /* Authservice.swift */; };
+		3B80DC752087040000D52FD4 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80DC742087040000D52FD4 /* MeViewController.swift */; };
+		3B80DC7720870C4900D52FD4 /* CreatePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80DC7620870C4900D52FD4 /* CreatePostViewController.swift */; };
+		3B80DC79208713B200D52FD4 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80DC78208713B200D52FD4 /* UIViewExt.swift */; };
+		3B80DC7B20871B3400D52FD4 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80DC7A20871B3400D52FD4 /* FeedTableViewCell.swift */; };
+		3B80DC7D2087202F00D52FD4 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80DC7C2087202F00D52FD4 /* Message.swift */; };
+		3B80DC7F20873D1600D52FD4 /* CreateGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80DC7E20873D1600D52FD4 /* CreateGroupsViewController.swift */; };
+		3B80DC812087558800D52FD4 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80DC802087558800D52FD4 /* UserTableViewCell.swift */; };
+		3B80DC8320877FD900D52FD4 /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80DC8220877FD900D52FD4 /* GroupTableViewCell.swift */; };
+		3B80DC85208784D800D52FD4 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80DC84208784D800D52FD4 /* Group.swift */; };
+		3B80DC872088531100D52FD4 /* GroupFeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80DC862088531100D52FD4 /* GroupFeedTableViewCell.swift */; };
+		3B80DC892088543A00D52FD4 /* GroupFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80DC882088543A00D52FD4 /* GroupFeedViewController.swift */; };
 		DED670A22CF412E26931D9FA /* Pods_BreakpointApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FDECD39CF6FDCD616BFE3F /* Pods_BreakpointApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +50,17 @@
 		3B80DC6E207FBF8700D52FD4 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 		3B80DC70207FC57800D52FD4 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		3B80DC72207FC87300D52FD4 /* Authservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authservice.swift; sourceTree = "<group>"; };
+		3B80DC742087040000D52FD4 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		3B80DC7620870C4900D52FD4 /* CreatePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostViewController.swift; sourceTree = "<group>"; };
+		3B80DC78208713B200D52FD4 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		3B80DC7A20871B3400D52FD4 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		3B80DC7C2087202F00D52FD4 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		3B80DC7E20873D1600D52FD4 /* CreateGroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsViewController.swift; sourceTree = "<group>"; };
+		3B80DC802087558800D52FD4 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		3B80DC8220877FD900D52FD4 /* GroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
+		3B80DC84208784D800D52FD4 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		3B80DC862088531100D52FD4 /* GroupFeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedTableViewCell.swift; sourceTree = "<group>"; };
+		3B80DC882088543A00D52FD4 /* GroupFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedViewController.swift; sourceTree = "<group>"; };
 		54CC88AA264844E57D4C4AD5 /* Pods-BreakpointApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakpointApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BreakpointApp/Pods-BreakpointApp.debug.xcconfig"; sourceTree = "<group>"; };
 		C4147932BC3E833DACB4763D /* Pods-BreakpointApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakpointApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BreakpointApp/Pods-BreakpointApp.release.xcconfig"; sourceTree = "<group>"; };
 		F6FDECD39CF6FDCD616BFE3F /* Pods_BreakpointApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BreakpointApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,8 +105,6 @@
 				3B80DC62207FA1AD00D52FD4 /* View */,
 				3B80DC61207FA19800D52FD4 /* Controller */,
 				3B80DC4D207FA15900D52FD4 /* AppDelegate.swift */,
-				3B80DC4F207FA15900D52FD4 /* FeedsViewController.swift */,
-				3B80DC51207FA15900D52FD4 /* GroupsViewController.swift */,
 				3B80DC53207FA15900D52FD4 /* Main.storyboard */,
 				3B80DC56207FA15900D52FD4 /* Assets.xcassets */,
 				3B80DC58207FA15900D52FD4 /* LaunchScreen.storyboard */,
@@ -97,8 +117,14 @@
 		3B80DC61207FA19800D52FD4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				3B80DC6A207FBE9800D52FD4 /* AuthViewController.swift */,
 				3B80DC6C207FBEC300D52FD4 /* LoginViewController.swift */,
+				3B80DC742087040000D52FD4 /* MeViewController.swift */,
+				3B80DC7620870C4900D52FD4 /* CreatePostViewController.swift */,
+				3B80DC4F207FA15900D52FD4 /* FeedsViewController.swift */,
+				3B80DC51207FA15900D52FD4 /* GroupsViewController.swift */,
+				3B80DC7E20873D1600D52FD4 /* CreateGroupsViewController.swift */,
+				3B80DC6A207FBE9800D52FD4 /* AuthViewController.swift */,
+				3B80DC882088543A00D52FD4 /* GroupFeedViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -108,6 +134,10 @@
 			children = (
 				3B80DC6E207FBF8700D52FD4 /* InsetTextField.swift */,
 				3B80DC70207FC57800D52FD4 /* ShadowView.swift */,
+				3B80DC7A20871B3400D52FD4 /* FeedTableViewCell.swift */,
+				3B80DC802087558800D52FD4 /* UserTableViewCell.swift */,
+				3B80DC8220877FD900D52FD4 /* GroupTableViewCell.swift */,
+				3B80DC862088531100D52FD4 /* GroupFeedTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -115,6 +145,8 @@
 		3B80DC63207FA1B500D52FD4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3B80DC7C2087202F00D52FD4 /* Message.swift */,
+				3B80DC84208784D800D52FD4 /* Group.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -122,6 +154,7 @@
 		3B80DC64207FA1CB00D52FD4 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				3B80DC78208713B200D52FD4 /* UIViewExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -288,15 +321,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B80DC7B20871B3400D52FD4 /* FeedTableViewCell.swift in Sources */,
+				3B80DC8320877FD900D52FD4 /* GroupTableViewCell.swift in Sources */,
+				3B80DC79208713B200D52FD4 /* UIViewExt.swift in Sources */,
+				3B80DC752087040000D52FD4 /* MeViewController.swift in Sources */,
 				3B80DC6D207FBEC300D52FD4 /* LoginViewController.swift in Sources */,
+				3B80DC812087558800D52FD4 /* UserTableViewCell.swift in Sources */,
 				3B80DC52207FA15900D52FD4 /* GroupsViewController.swift in Sources */,
 				3B80DC4E207FA15900D52FD4 /* AppDelegate.swift in Sources */,
+				3B80DC892088543A00D52FD4 /* GroupFeedViewController.swift in Sources */,
 				3B80DC6B207FBE9800D52FD4 /* AuthViewController.swift in Sources */,
+				3B80DC872088531100D52FD4 /* GroupFeedTableViewCell.swift in Sources */,
+				3B80DC85208784D800D52FD4 /* Group.swift in Sources */,
 				3B80DC71207FC57800D52FD4 /* ShadowView.swift in Sources */,
 				3B80DC73207FC87300D52FD4 /* Authservice.swift in Sources */,
+				3B80DC7720870C4900D52FD4 /* CreatePostViewController.swift in Sources */,
 				3B80DC50207FA15900D52FD4 /* FeedsViewController.swift in Sources */,
+				3B80DC7F20873D1600D52FD4 /* CreateGroupsViewController.swift in Sources */,
 				3B80DC6F207FBF8700D52FD4 /* InsetTextField.swift in Sources */,
 				3B80DC69207FA99500D52FD4 /* DataService.swift in Sources */,
+				3B80DC7D2087202F00D52FD4 /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

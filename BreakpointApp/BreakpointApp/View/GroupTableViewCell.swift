@@ -10,15 +10,15 @@ import UIKit
 
 class GroupTableViewCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    @IBOutlet weak var groupTitleLbl: UILabel!
+    @IBOutlet weak var groupDescriptionLbl: UILabel!
+    @IBOutlet weak var memberCountLbl: UILabel!
+    
+    func configureCell(title: String, description: String, memberCount: Int) {
+        self.groupTitleLbl.text = title
+        self.groupDescriptionLbl.text = description
+        self.memberCountLbl.text = "\(memberCount) members"
+        
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
+    
 }
